@@ -1,8 +1,11 @@
 # portfolio-demo2
 
-A static personal portfolio website for **Srihari Mogalapalli — Data & AI Leader**, built with plain
-HTML, CSS, and JavaScript (no build tools required) so it can be published directly on
-**GitHub Pages**.
+A static personal portfolio website for **Srihari Mogalapalli — Quality Engineering &
+GenAI/Agentic AI Product Engineering Leader**, built with plain HTML, CSS, and JavaScript
+(no build tools required) so it can be published directly on **GitHub Pages**.
+
+**Live site:** https://msrihari9.github.io/Srihari-portfolio-demo/
+**Repository:** https://github.com/msrihari9/Srihari-portfolio-demo
 
 ## Folder structure
 
@@ -32,27 +35,26 @@ Home/Hero, About, Experience (timeline), Skills, Projects, Achievements, Certifi
 and Contact (with a mailto-based contact form) — every section is fully populated with
 sample content so nothing is left blank.
 
-## Before you publish: personalize the content
+## Content status
 
-All content is placeholder/sample data meant to be replaced with your real details:
+All content reflects Srihari's actual LinkedIn profile and résumé (experience, skills,
+certifications, achievements, contact details). One item is still a placeholder:
 
-1. **Photo** — replace [images/profile-photo.svg](images/profile-photo.svg) with your real photo.
-   Keep the filename `profile-photo` (you can use `.jpg`/`.png` — just update the `src`
-   references in [index.html](index.html) and [resume/resume.html](resume/resume.html) accordingly),
-   or simply overwrite the file with a same-named raster image and update the extension.
-2. **Bio** — update the About, Experience, and Summary text in `index.html` and
-   `resume/resume.html` to reflect your real background.
-3. **Experience** — update company names, titles, dates, and bullet points in the
-   `#experience` timeline and in `resume/resume.html` to reflect your real career history.
-4. **Skills / Projects / Achievements / Certifications** — edit the sample entries to match
-   your real expertise, portfolio projects, and credentials.
-5. **Contact details** — update phone, LinkedIn, and GitHub links in the `#contact` section
-   (the email is pre-filled with the address you provided). The contact form currently
-   submits via `mailto:`; for a production-grade form, wire it up to a service such as
-   [Formspree](https://formspree.io) or [Netlify Forms](https://www.netlify.com/products/forms/).
-6. **Resume PDF** — open [resume/resume.html](resume/resume.html) in a browser and use
-   "Print / Save as PDF" to generate a downloadable PDF, then drop it into `resume/` and
-   link to it directly if preferred over the HTML version.
+- **Photo** — [images/profile-photo.svg](images/profile-photo.svg) is a generated placeholder
+  avatar. Replace it with a real photo (keep the filename `profile-photo`, or use `.jpg`/`.png`
+  and update the `src` references in [index.html](index.html) and
+  [resume/resume.html](resume/resume.html)).
+
+Everything else (bio, 5-role experience timeline, skills, 4 featured projects, achievements,
+8 certifications, and contact info) is populated from the real LinkedIn export and résumé PDF
+provided. Revisit these sections periodically to keep them in sync as the résumé evolves.
+
+The contact form currently submits via `mailto:`; for a production-grade form, wire it up to
+a service such as [Formspree](https://formspree.io) or [Netlify Forms](https://www.netlify.com/products/forms/).
+
+To regenerate a PDF résumé, open [resume/resume.html](resume/resume.html) in a browser and use
+"Print / Save as PDF", then drop the file into `resume/` and link to it directly if preferred
+over the HTML version.
 
 ## Running locally
 
@@ -70,6 +72,11 @@ npx serve .
 Then visit `http://localhost:8080`.
 
 ## Deploying to GitHub Pages
+
+This site is already deployed to https://github.com/msrihari9/Srihari-portfolio-demo and live
+at https://msrihari9.github.io/Srihari-portfolio-demo/. To push future updates, just commit and
+push to `main` — GitHub Pages redeploys automatically. Steps below are for reference / setting
+up from scratch elsewhere.
 
 1. Create a new GitHub repository (e.g. `portfolio-demo2` or `your-username.github.io`).
 2. Push the contents of this folder to the repository root:

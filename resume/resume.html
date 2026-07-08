@@ -82,6 +82,7 @@
   .job .company { color: var(--muted); font-weight: 600; font-size: 0.88rem; margin: 1px 0 6px; }
   .job ul { margin: 0; padding-left: 18px; color: var(--ink); font-size: 0.9rem; }
   .job ul li { margin-bottom: 3px; }
+  .job .sub-role { font-size: 0.85rem; font-weight: 700; color: var(--ink); margin: 10px 0 4px; }
 
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
   .pill-list { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -122,12 +123,12 @@
   <header class="resume-head">
     <div>
       <h1>Srihari Mogalapalli</h1>
-      <p class="role">Chief Data &amp; AI Officer · Cloud &amp; AI Transformation Executive</p>
+      <p class="role">Associate Director of Engineering · GenAI &amp; Agentic AI Product Engineering Leader</p>
       <p class="contact-line">
-        <a href="mailto:msriharimlai@gmail.com">msriharimlai@gmail.com</a> ·
+        <a href="mailto:msrihari928@gmail.com">msrihari928@gmail.com</a> ·
+        +91 98805 10345 ·
         Bengaluru, India ·
-        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a> ·
-        <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a>
+        <a href="https://www.linkedin.com/in/sriharimogalapalli" target="_blank" rel="noopener">linkedin.com/in/sriharimogalapalli</a>
       </p>
     </div>
     <div class="avatar"><img src="../images/profile-photo.svg" alt="Srihari Mogalapalli portrait" /></div>
@@ -136,11 +137,19 @@
   <section>
     <h2>Summary</h2>
     <p class="summary">
-      Data &amp; AI executive with 20+ years of experience spanning software engineering, cloud
-      architecture, and enterprise AI strategy. Proven record of building and leading global
-      technology organizations (150+ people), delivering $40M+ in measurable business value, and
-      establishing responsible AI governance frameworks at enterprise scale. Deep expertise across
-      AWS, Azure, GCP, generative AI/LLM platforms, and modern data engineering.
+      Associate Director of Engineering with 20 years of experience spanning enterprise SaaS,
+      AI/ML platforms, and enterprise mobility, combining technical product leadership with deep
+      Quality Engineering expertise. Over the past 2–3 years, has partnered closely with product
+      management to drive the technical roadmap for an AI/ML product squad — architecture
+      discussions, technical reviews, and rapid experimentation (prompt engineering, fine-tuning,
+      agent orchestration) — while also directing hands-on GenAI and Agentic AI quality
+      engineering: designing testing methodologies to validate the autonomous behavior of
+      agentic AI systems, defining novel quality metrics for accuracy, bias, safety, relevance,
+      and autonomous task completion, and evolving test automation frameworks to handle the
+      non-deterministic, dynamic nature of AI-driven software. At Proxima Systems and VMware, cut
+      production defects by 35% and defect leakage by 25% by embedding quality engineering into
+      CI/CD pipelines and shifting validation left into sprint planning. Currently directs 20+
+      engineers across 3 product squads covering SaaS, AI/ML, mobile, and API platforms.
     </p>
   </section>
 
@@ -148,52 +157,61 @@
     <h2>Professional Experience</h2>
 
     <div class="job">
-      <div class="job-row"><h3>Chief Data &amp; AI Officer</h3><span class="period">2021 — Present</span></div>
-      <p class="company">Nimbus Financial Group · Bengaluru, India</p>
+      <div class="job-row"><h3>Associate Director of Engineering</h3><span class="period">Aug 2020 — Present</span></div>
+      <p class="company">Proxima Systems Pvt. Ltd. · Bengaluru (Remote)</p>
       <ul>
-        <li>Own enterprise data &amp; AI strategy across a $2B business unit, reporting directly to the CEO.</li>
-        <li>Launched an enterprise Generative AI platform adopted by 12 business units, cutting document processing time by 65%.</li>
-        <li>Established an AI Governance &amp; Responsible AI framework adopted company-wide ahead of regulatory mandates.</li>
-        <li>Grew and led a global data &amp; AI organization from 40 to 150+ professionals across 4 countries.</li>
+        <li>Own end-to-end Test Excellence strategy for 3 distinct product squads (enterprise SaaS, AI/ML, mobile), directly managing 20+ QA engineers across onshore and remote environments.</li>
+        <li>Drove a 35% reduction in production defects and 25% drop in defect leakage by operationalizing a prevention-first Test Excellence program embedded across design, sprint planning, and CI/CD.</li>
+        <li>Architected a centralized test platform (automation, environments, test data, observability) from scratch, cutting environment spin-up time by 50% and eliminating redundant test scaffolding across teams.</li>
+        <li>Increased automation coverage from ~45% to 85%+ by architecting CI/CD-integrated frameworks with same-day feedback loops, enabling weekly release cadence across all 3 squads.</li>
+        <li>Instituted quality governance cadence (metrics reviews, RCA loops, MTTR dashboards) that improved mean time to resolution by 40%.</li>
+      </ul>
+
+      <p class="sub-role">Technical Product Leadership — AI/ML Product Squad (2023 – Present)</p>
+      <ul>
+        <li>Partnered with product management to drive the technical roadmap and delivery execution for the AI/ML product squad, translating business priorities into technical specifications and sprint-level backlog decisions.</li>
+        <li>Participated in architecture discussions, technical reviews, and code walkthroughs, contributing hands-on technical input on system design for GenAI and Agentic AI product features.</li>
+        <li>Led rapid experimentation and prototyping — prompt engineering, model fine-tuning, AI evaluation, and agent orchestration — to validate technical feasibility of new GenAI and Agentic AI capabilities.</li>
+      </ul>
+
+      <p class="sub-role">GenAI &amp; Agentic AI Quality Engineering (2023 – Present)</p>
+      <ul>
+        <li>Built and led Proxima Systems' first AI Quality Engineering practice, including LLM validation pipelines, RAG evaluation harnesses, and hallucination detection frameworks using LangChain, LangGraph, AutoGen, RAGAS, and DeepEval — accelerating AI test creation by 30%.</li>
+        <li>Defined and implemented quality and performance metrics for Generative and Agentic AI models spanning accuracy, factuality, hallucination rate, bias, safety, relevance, and autonomous task completion.</li>
+        <li>Designed testing methodologies to validate the autonomous behavior of multi-step Agentic AI workflows built on LangGraph and AutoGen, verifying tool-call correctness and task-success rate.</li>
+        <li>Evolved test automation frameworks (Playwright, Selenium, Rest Assured) to handle non-deterministic AI-driven software, integrating LLM-as-a-judge evaluation and guardrail checks into CI/CD.</li>
+        <li>Evaluated and selected Qdrant as the vector database for RAG pipelines; validated retrieval accuracy, semantic re-ranking, Redis caching, and PostgreSQL persistence within a microservices-based deployment.</li>
       </ul>
     </div>
 
     <div class="job">
-      <div class="job-row"><h3>VP, Cloud &amp; Data Engineering</h3><span class="period">2016 — 2021</span></div>
-      <p class="company">Vertex Health Systems · Hyderabad, India</p>
+      <div class="job-row"><h3>Senior Member of Technical Staff (QE Lead)</h3><span class="period">Jul 2016 — Apr 2020</span></div>
+      <p class="company">VMware · Bengaluru</p>
       <ul>
-        <li>Led migration of core data platforms from on-prem to AWS/Azure, reducing infrastructure costs by 38%.</li>
-        <li>Built a real-time patient analytics platform processing 2M+ events/day.</li>
-        <li>Established the organization's first MLOps practice, cutting model deployment time from months to days.</li>
-        <li>Managed a $15M annual technology budget across data engineering, platform, and analytics teams.</li>
+        <li>Led quality engineering for VMware Workspace ONE (Enterprise Mobility Management) — console and device validation across Android, Chromebooks, Intelligent Hub, AirWatch Container, Android Enterprise (DO/PO/COMP), and Samsung KNOX.</li>
+        <li>Scaled automation coverage to 60%+ by building Appium/Cucumber/Rest Assured frameworks integrated into CI/CD, reducing manual regression effort by 3 days per release cycle.</li>
+        <li>Owned end-to-end test strategy across mobile, API, and web for monthly production releases with zero missed release windows over 4 years.</li>
+        <li>Embedded shift-left and security testing practices, cutting late-stage defect discovery by 40% and improving release predictability.</li>
       </ul>
     </div>
 
     <div class="job">
-      <div class="job-row"><h3>Director, Data &amp; Analytics</h3><span class="period">2011 — 2016</span></div>
-      <p class="company">Orion Retail Corp · Pune, India</p>
+      <div class="job-row"><h3>Technical Manager, QA</h3><span class="period">Jul 2015 — Jun 2016</span></div>
+      <p class="company">Samsung Data System (Samsung SDS) · Bengaluru</p>
       <ul>
-        <li>Designed and delivered an enterprise data warehouse consolidating 30+ disparate source systems.</li>
-        <li>Introduced predictive demand-forecasting models that reduced inventory holding costs by 18%.</li>
-        <li>Built out the company's first dedicated data science function, growing it from 3 to 25 members.</li>
+        <li>Led quality engineering for OpenALM, a mobile and REST API-driven application lifecycle management platform, in an Agile delivery environment.</li>
+        <li>Reduced post-release defects by 20% within 2 release cycles by defining a structured test strategy covering mobile UI, REST API contracts, and integration workflows.</li>
+        <li>Built an Appium/TestNG/Jenkins automation suite with Postman-based API testing.</li>
       </ul>
     </div>
 
     <div class="job">
-      <div class="job-row"><h3>Senior Data Architect</h3><span class="period">2007 — 2011</span></div>
-      <p class="company">Quantum Systems Inc · Chennai, India</p>
+      <div class="job-row"><h3>Senior QA Lead</h3><span class="period">Sep 2005 — Jun 2015</span></div>
+      <p class="company">Brillio Technologies · Bengaluru</p>
       <ul>
-        <li>Architected large-scale ETL and data warehousing solutions for banking and insurance clients.</li>
-        <li>Led a team of 12 engineers delivering data integration projects across 5 concurrent client accounts.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <div class="job-row"><h3>Software Engineer → Lead Engineer</h3><span class="period">2003 — 2007</span></div>
-      <p class="company">Beacon Softworks · Chennai, India</p>
-      <ul>
-        <li>Started career building enterprise applications and backend systems; promoted twice in 4 years.</li>
-        <li>Developed core database and reporting modules used by Fortune 500 clients.</li>
+        <li>Led quality engineering, test planning, and release ownership for rugged mobile, tablet, handheld, and embedded device platforms across 10 years and 10+ device generations.</li>
+        <li>Delivered hardware-software integrated system validation, including connectivity and protocol testing (WLAN, Bluetooth, USB, Ethernet, RFID, ZigBee), reducing field return rates for hardware issues.</li>
+        <li>Drove cross-functional validation across hardware, firmware, OS, and application layers; mentored QA engineers and owned release schedules across multiple concurrent device programs.</li>
       </ul>
     </div>
   </section>
@@ -202,20 +220,19 @@
     <section>
       <h2>Core Skills</h2>
       <div class="pill-list">
-        <span>AWS</span><span>Azure</span><span>GCP</span><span>Generative AI / LLMs</span>
-        <span>MLOps</span><span>Data Governance</span><span>Spark / Databricks</span>
-        <span>Snowflake</span><span>Kafka</span><span>Python / SQL</span>
-        <span>Terraform</span><span>Kubernetes</span><span>P&amp;L Ownership</span>
-        <span>Org Building</span>
+        <span>Quality Engineering Leadership</span><span>Agentic Testing</span><span>Hallucination Detection</span>
+        <span>RAG Evaluation</span><span>LangChain / LangGraph</span><span>AutoGen / RAGAS / DeepEval</span>
+        <span>Playwright / Selenium / Appium</span><span>Rest Assured</span><span>Python / Java / TypeScript</span>
+        <span>AWS / GCP / Docker</span><span>GitLab CI/CD / Jenkins</span><span>Grafana / Datadog</span>
+        <span>Team Scaling &amp; Mentorship</span>
       </div>
     </section>
 
     <section>
       <h2>Education</h2>
       <ul class="simple-list">
-        <li><strong>M.S., Computer Science</strong> — Indian Institute of Technology (2003)</li>
-        <li><strong>B.E., Computer Science &amp; Engineering</strong> — Anna University (2001)</li>
-        <li><strong>Executive Leadership Program</strong> — Indian School of Business (2019)</li>
+        <li><strong>Master of Science, Computer Science</strong> — Andhra University, Visakhapatnam (2000 – 2002)</li>
+        <li><strong>Bachelor of Science (B.Sc.), Computer Science</strong> — Andhra University (Jun 1997 – Mar 2000)</li>
       </ul>
     </section>
   </div>
@@ -223,22 +240,22 @@
   <div class="two-col">
     <section>
       <h2>Certifications</h2>
-      <p class="cert-line"><strong>AWS Certified Solutions Architect – Professional</strong><br /><span>Amazon Web Services · 2023</span></p>
-      <p class="cert-line"><strong>Azure Solutions Architect Expert</strong><br /><span>Microsoft · 2022</span></p>
-      <p class="cert-line"><strong>Professional Data Engineer</strong><br /><span>Google Cloud · 2021</span></p>
-      <p class="cert-line"><strong>Certified Data Management Professional (CDMP)</strong><br /><span>DAMA International · 2020</span></p>
-      <p class="cert-line"><strong>Project Management Professional (PMP)</strong><br /><span>PMI · 2014</span></p>
-      <p class="cert-line"><strong>TOGAF 9 Certified</strong><br /><span>The Open Group · 2018</span></p>
+      <p class="cert-line"><strong>Microsoft Certified: AI Transformation Leader (AB-731)</strong><br /><span>Microsoft</span></p>
+      <p class="cert-line"><strong>AWS Certified AI Practitioner</strong><br /><span>Amazon Web Services</span></p>
+      <p class="cert-line"><strong>Google Generative AI Leader</strong><br /><span>Google</span></p>
+      <p class="cert-line"><strong>ISTQB® Advanced Level Test Manager</strong><br /><span>ISTQB</span></p>
+      <p class="cert-line"><strong>Project Management Professional (PMP)</strong><br /><span>PMI</span></p>
+      <p class="cert-line"><strong>Certified ScrumMaster (CSM)</strong><br /><span>Scrum Alliance</span></p>
     </section>
 
     <section>
       <h2>Achievements &amp; Recognition</h2>
       <ul class="simple-list">
-        <li>Co-inventor on a granted US patent for a context-aware, real-time recommendation system.</li>
-        <li>Named to industry "Top 40 Data Leaders" list, 2023.</li>
-        <li>Keynote speaker: Gartner Data &amp; Analytics Summit, Strata Data Conference.</li>
-        <li>Delivered $40M+ in cumulative business value through data &amp; AI initiatives since 2016.</li>
-        <li>Formally mentored 6 professionals who advanced into leadership roles.</li>
+        <li>Drove a 35% reduction in production defects and 25% drop in defect leakage at Proxima Systems.</li>
+        <li>Scaled test automation coverage from 45% to 85%+, enabling a weekly release cadence.</li>
+        <li>Built the organization's first AI Quality Engineering practice, accelerating AI test creation by 30%.</li>
+        <li>Hired and mentored 20+ engineers, with 4 advancing into senior/lead roles.</li>
+        <li>Delivered zero missed monthly release windows across 4 years leading QE for VMware Workspace ONE.</li>
       </ul>
     </section>
   </div>
