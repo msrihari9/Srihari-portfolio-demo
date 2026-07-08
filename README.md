@@ -19,7 +19,8 @@ portfolio-demo2/
 ├── js/
 │   └── main.js          # Theme toggle, mobile nav, scroll reveal, back-to-top
 ├── images/
-│   ├── profile-photo.svg    # Placeholder avatar — replace with your real photo
+│   ├── profile-photo.jpg    # Profile photo used in hero + résumé
+│   ├── profile-photo.svg    # Unused placeholder avatar (kept for reference)
 │   ├── favicon.svg
 │   └── projects/             # Icons used on project cards
 ├── resume/
@@ -37,17 +38,13 @@ sample content so nothing is left blank.
 
 ## Content status
 
-All content reflects Srihari's actual LinkedIn profile and résumé (experience, skills,
-certifications, achievements, contact details). One item is still a placeholder:
+All content reflects Srihari's actual LinkedIn profile, résumé, and photo (experience, skills,
+certifications, achievements, contact details, portrait). Nothing is left as a placeholder.
 
-- **Photo** — [images/profile-photo.svg](images/profile-photo.svg) is a generated placeholder
-  avatar. Replace it with a real photo (keep the filename `profile-photo`, or use `.jpg`/`.png`
-  and update the `src` references in [index.html](index.html) and
-  [resume/resume.html](resume/resume.html)).
-
-Everything else (bio, 5-role experience timeline, skills, 4 featured projects, achievements,
-8 certifications, and contact info) is populated from the real LinkedIn export and résumé PDF
-provided. Revisit these sections periodically to keep them in sync as the résumé evolves.
+Bio, 5-role experience timeline, skills, 4 featured projects, achievements, 8 certifications,
+contact info, and the [profile photo](images/profile-photo.jpg) are all populated from the real
+LinkedIn export, résumé PDF, and headshot provided. Revisit these sections periodically to keep
+them in sync as the résumé evolves.
 
 The contact form currently submits via `mailto:`; for a production-grade form, wire it up to
 a service such as [Formspree](https://formspree.io) or [Netlify Forms](https://www.netlify.com/products/forms/).
