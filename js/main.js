@@ -1,4 +1,4 @@
-// Srihari M — Portfolio interactivity
+// Srihari Mogalapalli — Portfolio interactivity
 // Handles: theme toggle, mobile nav, scroll-reveal animation, back-to-top, footer year.
 
 (function () {

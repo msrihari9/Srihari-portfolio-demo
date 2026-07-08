@@ -1,6 +1,6 @@
 # portfolio-demo2
 
-A static personal portfolio website for **Srihari M — Data & AI Leader**, built with plain
+A static personal portfolio website for **Srihari Mogalapalli — Data & AI Leader**, built with plain
 HTML, CSS, and JavaScript (no build tools required) so it can be published directly on
 **GitHub Pages**.
 
@@ -40,8 +40,8 @@ All content is placeholder/sample data meant to be replaced with your real detai
    Keep the filename `profile-photo` (you can use `.jpg`/`.png` — just update the `src`
    references in [index.html](index.html) and [resume/resume.html](resume/resume.html) accordingly),
    or simply overwrite the file with a same-named raster image and update the extension.
-2. **Name & bio** — search `Srihari M` across `index.html` and `resume/resume.html` and
-   replace with your name; update the About, Experience, and Summary text.
+2. **Bio** — update the About, Experience, and Summary text in `index.html` and
+   `resume/resume.html` to reflect your real background.
 3. **Experience** — update company names, titles, dates, and bullet points in the
    `#experience` timeline and in `resume/resume.html` to reflect your real career history.
 4. **Skills / Projects / Achievements / Certifications** — edit the sample entries to match
