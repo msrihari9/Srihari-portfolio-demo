@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Srihari M — Résumé</title>
+<link rel="icon" type="image/svg+xml" href="../images/favicon.svg" />
+<style>
+  :root {
+    --ink: #1b1f2a;
+    --muted: #5a6072;
+    --accent: #2454ff;
+    --accent2: #14b8a6;
+    --line: #e3e6ee;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--ink);
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 48px 40px 80px;
+    line-height: 1.55;
+    background: #ffffff;
+  }
+  .toolbar {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  .toolbar a, .toolbar button {
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 9px 16px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .toolbar .primary { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; border: none; }
+
+  header.resume-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 18px;
+    margin-bottom: 24px;
+    gap: 20px;
+  }
+  header.resume-head h1 { margin: 0 0 4px; font-size: 1.9rem; letter-spacing: -0.01em; }
+  header.resume-head .role { color: var(--accent); font-weight: 700; margin: 0 0 10px; font-size: 1rem; }
+  header.resume-head .contact-line { color: var(--muted); font-size: 0.86rem; margin: 0; }
+  header.resume-head .contact-line a { color: var(--muted); text-decoration: none; }
+  .avatar {
+    width: 88px; height: 88px; border-radius: 50%; flex: none;
+    overflow: hidden; border: 3px solid var(--line);
+  }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+
+  section { margin-bottom: 26px; }
+  section h2 {
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+    margin: 0 0 14px;
+  }
+  .summary { color: var(--muted); font-size: 0.95rem; }
+
+  .job { margin-bottom: 16px; }
+  .job:last-child { margin-bottom: 0; }
+  .job-row { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .job-row h3 { margin: 0; font-size: 1rem; }
+  .job-row .period { font-size: 0.8rem; color: var(--muted); font-weight: 700; white-space: nowrap; }
+  .job .company { color: var(--muted); font-weight: 600; font-size: 0.88rem; margin: 1px 0 6px; }
+  .job ul { margin: 0; padding-left: 18px; color: var(--ink); font-size: 0.9rem; }
+  .job ul li { margin-bottom: 3px; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+  .pill-list { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill-list span {
+    font-size: 0.78rem;
+    font-weight: 600;
+    background: #eef1ff;
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 999px;
+  }
+  .simple-list { margin: 0; padding-left: 18px; font-size: 0.88rem; color: var(--ink); }
+  .simple-list li { margin-bottom: 4px; }
+  .cert-line { font-size: 0.88rem; margin-bottom: 5px; }
+  .cert-line strong { display: inline; }
+  .cert-line span { color: var(--muted); }
+
+  footer.resume-foot { text-align: center; color: var(--muted); font-size: 0.75rem; margin-top: 30px; }
+
+  @media print {
+    .toolbar { display: none; }
+    body { padding: 0 12mm; }
+    a { color: inherit; text-decoration: none; }
+  }
+  @media (max-width: 640px) {
+    .two-col { grid-template-columns: 1fr; }
+    header.resume-head { flex-direction: column-reverse; }
+  }
+</style>
+</head>
+<body>
+
+  <div class="toolbar">
+    <a href="../index.html">← Back to Site</a>
+    <button class="primary" onclick="window.print()">🖨️ Print / Save as PDF</button>
+  </div>
+
+  <header class="resume-head">
+    <div>
+      <h1>Srihari M</h1>
+      <p class="role">Chief Data &amp; AI Officer · Cloud &amp; AI Transformation Executive</p>
+      <p class="contact-line">
+        <a href="mailto:msrihari928@gmail.com">msrihari928@gmail.com</a> ·
+        Bengaluru, India ·
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a> ·
+        <a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a>
+      </p>
+    </div>
+    <div class="avatar"><img src="../images/profile-photo.svg" alt="Srihari M portrait" /></div>
+  </header>
+
+  <section>
+    <h2>Summary</h2>
+    <p class="summary">
+      Data &amp; AI executive with 20+ years of experience spanning software engineering, cloud
+      architecture, and enterprise AI strategy. Proven record of building and leading global
+      technology organizations (150+ people), delivering $40M+ in measurable business value, and
+      establishing responsible AI governance frameworks at enterprise scale. Deep expertise across
+      AWS, Azure, GCP, generative AI/LLM platforms, and modern data engineering.
+    </p>
+  </section>
+
+  <section>
+    <h2>Professional Experience</h2>
+
+    <div class="job">
+      <div class="job-row"><h3>Chief Data &amp; AI Officer</h3><span class="period">2021 — Present</span></div>
+      <p class="company">Nimbus Financial Group · Bengaluru, India</p>
+      <ul>
+        <li>Own enterprise data &amp; AI strategy across a $2B business unit, reporting directly to the CEO.</li>
+        <li>Launched an enterprise Generative AI platform adopted by 12 business units, cutting document processing time by 65%.</li>
+        <li>Established an AI Governance &amp; Responsible AI framework adopted company-wide ahead of regulatory mandates.</li>
+        <li>Grew and led a global data &amp; AI organization from 40 to 150+ professionals across 4 countries.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row"><h3>VP, Cloud &amp; Data Engineering</h3><span class="period">2016 — 2021</span></div>
+      <p class="company">Vertex Health Systems · Hyderabad, India</p>
+      <ul>
+        <li>Led migration of core data platforms from on-prem to AWS/Azure, reducing infrastructure costs by 38%.</li>
+        <li>Built a real-time patient analytics platform processing 2M+ events/day.</li>
+        <li>Established the organization's first MLOps practice, cutting model deployment time from months to days.</li>
+        <li>Managed a $15M annual technology budget across data engineering, platform, and analytics teams.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row"><h3>Director, Data &amp; Analytics</h3><span class="period">2011 — 2016</span></div>
+      <p class="company">Orion Retail Corp · Pune, India</p>
+      <ul>
+        <li>Designed and delivered an enterprise data warehouse consolidating 30+ disparate source systems.</li>
+        <li>Introduced predictive demand-forecasting models that reduced inventory holding costs by 18%.</li>
+        <li>Built out the company's first dedicated data science function, growing it from 3 to 25 members.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row"><h3>Senior Data Architect</h3><span class="period">2007 — 2011</span></div>
+      <p class="company">Quantum Systems Inc · Chennai, India</p>
+      <ul>
+        <li>Architected large-scale ETL and data warehousing solutions for banking and insurance clients.</li>
+        <li>Led a team of 12 engineers delivering data integration projects across 5 concurrent client accounts.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-row"><h3>Software Engineer → Lead Engineer</h3><span class="period">2003 — 2007</span></div>
+      <p class="company">Beacon Softworks · Chennai, India</p>
+      <ul>
+        <li>Started career building enterprise applications and backend systems; promoted twice in 4 years.</li>
+        <li>Developed core database and reporting modules used by Fortune 500 clients.</li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section>
+      <h2>Core Skills</h2>
+      <div class="pill-list">
+        <span>AWS</span><span>Azure</span><span>GCP</span><span>Generative AI / LLMs</span>
+        <span>MLOps</span><span>Data Governance</span><span>Spark / Databricks</span>
+        <span>Snowflake</span><span>Kafka</span><span>Python / SQL</span>
+        <span>Terraform</span><span>Kubernetes</span><span>P&amp;L Ownership</span>
+        <span>Org Building</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul class="simple-list">
+        <li><strong>M.S., Computer Science</strong> — Indian Institute of Technology (2003)</li>
+        <li><strong>B.E., Computer Science &amp; Engineering</strong> — Anna University (2001)</li>
+        <li><strong>Executive Leadership Program</strong> — Indian School of Business (2019)</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="two-col">
+    <section>
+      <h2>Certifications</h2>
+      <p class="cert-line"><strong>AWS Certified Solutions Architect – Professional</strong><br /><span>Amazon Web Services · 2023</span></p>
+      <p class="cert-line"><strong>Azure Solutions Architect Expert</strong><br /><span>Microsoft · 2022</span></p>
+      <p class="cert-line"><strong>Professional Data Engineer</strong><br /><span>Google Cloud · 2021</span></p>
+      <p class="cert-line"><strong>Certified Data Management Professional (CDMP)</strong><br /><span>DAMA International · 2020</span></p>
+      <p class="cert-line"><strong>Project Management Professional (PMP)</strong><br /><span>PMI · 2014</span></p>
+      <p class="cert-line"><strong>TOGAF 9 Certified</strong><br /><span>The Open Group · 2018</span></p>
+    </section>
+
+    <section>
+      <h2>Achievements &amp; Recognition</h2>
+      <ul class="simple-list">
+        <li>Co-inventor on a granted US patent for a context-aware, real-time recommendation system.</li>
+        <li>Named to industry "Top 40 Data Leaders" list, 2023.</li>
+        <li>Keynote speaker: Gartner Data &amp; Analytics Summit, Strata Data Conference.</li>
+        <li>Delivered $40M+ in cumulative business value through data &amp; AI initiatives since 2016.</li>
+        <li>Formally mentored 6 professionals who advanced into leadership roles.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer class="resume-foot">
+    References available upon request. Last updated July 2026.
+  </footer>
+
+</body>
+</html>
